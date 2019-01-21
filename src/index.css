@@ -6,9 +6,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./travel_HD.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  opacity: 20;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+p{
+ color: #140001;
+}
+
+h1{
+  text-align: center;
+}
+.container{
+  margin-left: 100px;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+
+#root{
+  margin-bottom: 100px;
 }
